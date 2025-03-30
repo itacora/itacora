@@ -26,7 +26,7 @@ jobs:
         run: npx puppeteer browsers install chrome@126.0.6478.63
 
       - name: Use Kaggle Badges Action
-        uses: spider-man-tm/kaggle-badges
+        uses: itacora/kaggle-badges@v1.2.6
         with:
           user_name: itacora
           # example of using GitHub Secrets
